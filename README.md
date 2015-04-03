@@ -53,6 +53,8 @@ It supports routing and transformation of messages so that different transports 
 
 ### Spring XD
 
+[Spring XS Guided Tour](http://www.slideshare.net/SpringCentral/spring-xd-guided-tour)
+
 ![](http://projects.spring.io/spring-xd/img/spring-xd-unified-platform-for-big-data.png)
 
 Spring XD is a unified, distributed, and extensible system for data ingestion, real time analytics, batch processing, and data export.

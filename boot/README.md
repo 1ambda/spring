@@ -1,3 +1,15 @@
+
+### Test
+
+[Docs: Spring Boot Test](http://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html)
+
+`spring-boot-starter` provides these packages
+
+- Spring Test
+- JUnit
+- Hamcrest
+- Mockito
+
 ### @SpringBootApplication
 
 - @ComponentScan
