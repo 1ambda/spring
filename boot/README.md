@@ -114,3 +114,16 @@ use `gradle bootRun`. This task is added whenever you import the srping boot plu
 ### Jar Manifest Issue
 
 [SO: BootRepackage](http://stackoverflow.com/questions/24695701/no-main-manifest-attribute-when-trying-to-execute-fat-jar)
+
+### Gradle Wrapper
+
+The Gradle Wrapper is the preferred way of starting a Gradle build. It consists of a batch script for Windows and a shell script for OS X and Linux.
+
+```gradle
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.3'
+}
+```
+
+run `gradle wrapper` and, `./gradlew build`
+
