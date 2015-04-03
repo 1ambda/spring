@@ -13,8 +13,6 @@ import org.springframework.context.annotation.Configuration;
 public class App {
 	public static void main(String[] args) {
 		SpringApplication.run(App.class, args);
-
-		System.out.println("App1");
 	}
 }
 
