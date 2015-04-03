@@ -66,18 +66,17 @@ public class RootConfig {
 ### @Component vs @Bean
 
 [@Component](http://docs.spring.io/spring/docs/3.1.x/javadoc-api/org/springframework/stereotype/Component.html)
+
 [@Bean](http://docs.spring.io/spring/docs/3.1.x/javadoc-api/org/springframework/context/annotation/Bean.html)
+
 [SO: Difference between @Bean and @Component](http://stackoverflow.com/questions/10604298/spring-component-versus-bean)
+
 [Component@ vs @Bean](http://zezutom.blogspot.kr/2014/02/spring-series-part-5-component-vs-bean.html)
-[@Component vs @Bean]()
+
 
 - `@Component` indicates that an annotated **class** is a "component". Such classes are considered as candidates for auto-detection when using annotation-based configuration and classpath scanning
 
 - `@Bean` indicates that a **method** produces a bean to be managed by the Spring Container. The names and semantics of the attributes to this annotation are intentionally similar to those of the <bean/> element in the Spring XML schema.
-
-and
-
-- `@Component`
 
 ### @ComponentScan
 
@@ -108,6 +107,7 @@ use `gradle bootRun`. This task is added whenever you import the srping boot plu
 ### Hot-Swap
 
 [SpringLoaded](https://github.com/spring-projects/spring-loaded)
+
 [Gradle Setting](http://docs.spring.io/spring-boot/docs/current/reference/html/howto-hotswapping.html)
 
 
